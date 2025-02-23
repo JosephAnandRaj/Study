@@ -154,6 +154,8 @@ private WebElement waitForElementToBeClickable(By locator) {
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     return wait.until(ExpectedConditions.elementToBeClickable(locator));
 }
+
+// Changes 
 }
 
 
